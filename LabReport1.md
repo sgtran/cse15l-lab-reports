@@ -22,4 +22,7 @@ Today we will be learning how to use remote access in three simple steps.
 ![Image](logIn.PNG)	
 
 ## Trying Some Commands
-* Here we will have some commands such as ls, pwd, and 
+* Here we will have some commands such as ls, pwd, and cd.
+* ![Image](lsCommand.PNG)	
+* ![Image](pwd.PNG)	
+* ![Image](cd.PNG)	

@@ -8,4 +8,10 @@ Today we will be learning how to use remote access in three simple steps.
 * Trying Some Commands
 
 # Installing VS Code
-* If VS Code is not already installed on your computer, go to this link to download and install VSCode version that corresponds with your operating system.
+* If VSCode is not already installed on your computer, go to this [link](https://code.visualstudio.com/)	to download and install VSCode version that corresponds with your operating system.
+* Once VSCode is properly installed on your system open the application.
+* Please note that it may be different color themes, menu bars, etc because of the variation of systems and settings available.
+
+#Remotely Connecting
+* If you are a Windows user, you need to download and install Git which can be found [here](https://gitforwindows.org/).
+* You will then also need to set your default terminal to Git Bash in VS Code using these [instructions](https://stackoverflow.com/a/50527994). 

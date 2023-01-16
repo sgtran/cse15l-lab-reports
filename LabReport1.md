@@ -20,3 +20,6 @@ Today we will be learning how to use remote access in three simple steps.
 ![Image](bash.PNG)	
 * You should get something like this you have succeded in logging in.
 ![Image](logIn.PNG)	
+
+## Trying Some Commands
+* Here we will have some commands such as ls, pwd, and 

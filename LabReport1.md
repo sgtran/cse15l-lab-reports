@@ -1,6 +1,7 @@
 # Lab Report One
 ---
-Author: Sean Tran \n
+Author: Sean Tran 
+
 PID: A16045509
 
 Welcome to CSE15L!

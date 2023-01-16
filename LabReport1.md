@@ -14,9 +14,9 @@ Today we will be learning how to use remote access in three simple steps.
 ![Image](vs.PNG)	
 
 ## Remotely Connecting
-* If you are a Windows user, you need to download and install Git which can be found [here](https://gitforwindows.org/).
-* You will then also need to set your default terminal to Git Bash in VS Code using these [instructions](https://stackoverflow.com/a/50527994).
+* If you are a Windows user, you need to download and install Git which can be found [here](https://gitforwindows.org/) and you will then also need to set your default terminal to Git Bash in VS Code using these [instructions](https://stackoverflow.com/a/50527994).
  ![Image](vsBash.PNG)	
-* You will now go to your terminal and type in the command below replacing zz with the letters in your course specific account; answer yes to the prompt if it is your first time logging in. 
+* You will now go to your terminal and type in the command below replacing zz with the letters in your course specific account; answer yes to the prompt if it is your first time logging in and enter your password.
 ![Image](bash.PNG)	
+* You should get something like this you have succeded in logging in.
 ![Image](logIn.PNG)	

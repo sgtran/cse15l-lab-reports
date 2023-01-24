@@ -25,7 +25,7 @@ Today we will be learning how to use remote access in three simple steps.
 ![Image](logIn.PNG)	
 
 ## Trying Some Commands
-* Here we will have some commands: 
+* Try some of these simple commands! 
 * ls -> Lists all files in current directory
  ![Image](lsCommand.PNG)
 * pwd -> Prints the whole path of current directory from the root directory

@@ -30,7 +30,7 @@ Today we will be learning how to use remote access in three simple steps.
  ![Image](lsCommand.PNG)
 * **pwd** -> Prints the whole path of current directory from the root directory
  ![Image](pwd.PNG)
-* **cd [desired directory here]** -> Changes into desired directory 
+* **cd [desired directory here]** -> Moves into desired directory 
  ![Image](cd.PNG)	
 * In order to leave, either type in Ctrl-D or type in exit into the terminal.
   ![Image](exit.PNG)	

@@ -26,11 +26,11 @@ Today we will be learning how to use remote access in three simple steps.
 
 ## Trying Some Commands
 * Try some of these simple commands! 
-* ls -> Lists all files in current directory
+* **ls -a** -> Lists all files in current directory including hidden ones
  ![Image](lsCommand.PNG)
-* pwd -> Prints the whole path of current directory from the root directory
+* **pwd** -> Prints the whole path of current directory from the root directory
  ![Image](pwd.PNG)
-* cd -> Changes into desired directory 
+* **cd [desired directory here]** -> Changes into desired directory 
  ![Image](cd.PNG)	
 * In order to leave, either type in Ctrl-D or type in exit into the terminal.
   ![Image](exit.PNG)	

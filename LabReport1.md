@@ -32,6 +32,6 @@ Today we will be learning how to use remote access in three simple steps.
  ![Image](pwd.PNG)
 * **cd [desired directory here]** -> Moves into desired directory 
  ![Image](cd.PNG)	
-* In order to leave, either _press_ **Ctrl-D** or _type_ in **exit** into the terminal.
+* In order to leave, either _press_ **Ctrl-D** or _type_ in **exit** into the terminal and your terminal should look like this
   ![Image](exit.PNG)	
 

@@ -40,4 +40,9 @@ PID: A16045509
 	}
 }
 ```
-* This is the symptom as the output of runnign the tests described above.
+* This is the symptom as the output of running the tests described above. The symptom for the out of the test fail was last element should have been 3 but was 1.
+![Image](1.29.3.PNG)
+* The bug was the loop iterated through the array and only swapped one side of the array. For example, to reverse an array, we would swap the first and last element. However, the code only swapped the first element with the last element without ever changing the last element.
+![Image](1.29.4.PNG)
+* The fix was to store the value of the arr element in temp before replacing it with the value of the corresponding element on other side of the array. Also the amount of iterations was cut to only half the array becuase you only need to access half the elements since you are changing the element in the position and its correspoding element. 
+![Image](1.29.5.PNG)

@@ -15,3 +15,13 @@ PID: A16045509
 ![Image](1.29.1.PNG)
 * In the screenshot below, the method StringServer's handleRequest method is run. This is done when the user edits the url from http://localhost:4000/add-message?s=Hello to http://localhost:4000/add-message?s=How are you. When this method is called, it parses the url to find the string data that occurs after the "=" and stores it in answer. Answer is then returned and displayed on the page.
 ![Image](1.29.2.PNG)
+
+## Part 2 Explaining a bug
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```

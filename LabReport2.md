@@ -20,11 +20,11 @@ PID: A16045509
 * The code block below is an example of failure-inducing input for the reverseInPlace method
 ```json
 {
-   @Test 
-	 public void testReverseInPlace2() {
-   int[] input1 = { 1,2,3 };
-   ArrayExamples.reverseInPlace(input1);
-   assertArrayEquals(new int[]{ 3,2,1 }, input1);
+   	@Test 
+	public void testReverseInPlace2() {
+   	int[] input1 = { 1,2,3 };
+   	ArrayExamples.reverseInPlace(input1);
+  	 assertArrayEquals(new int[]{ 3,2,1 }, input1);
 	}
 }
 ```
@@ -34,10 +34,9 @@ PID: A16045509
 {
 	@Test 
 	public void testReverseInPlace() {
-    int[] input1 = { 3 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3 }, input1);
-	}
+    	int[] input1 = { 3 };
+    	ArrayExamples.reverseInPlace(input1);
+    	assertArrayEquals(new int[]{ 3 }, input1);
 	}
 }
 ```

@@ -17,11 +17,28 @@ PID: A16045509
 ![Image](1.29.2.PNG)
 
 ## Part 2 Explaining a bug
-
+* The code block below is an example of failure-inducing input for the reverseInPlace method
 ```json
 {
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+   @Test 
+	 public void testReverseInPlace2() {
+   int[] input1 = { 1,2,3 };
+   ArrayExamples.reverseInPlace(input1);
+   assertArrayEquals(new int[]{ 3,2,1 }, input1);
+	}
 }
 ```
+
+* The code block below is an example of non-failure-inducing input for the reverseInPlace method
+```json
+{
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+	}
+}
+```
+* This is the symptom as the output of runnign the tests described above.

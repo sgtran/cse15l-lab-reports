@@ -18,7 +18,7 @@ PID: A16045509
 
 ## Part 2 Explaining a bug
 * The code block below is an example of failure-inducing input for the reverseInPlace method
-```json
+```
 {
    	@Test 
 	public void testReverseInPlace2() {
@@ -30,7 +30,7 @@ PID: A16045509
 ```
 
 * The code block below is an example of non-failure-inducing input for the reverseInPlace method
-```json
+``` 
 {
 	@Test 
 	public void testReverseInPlace() {

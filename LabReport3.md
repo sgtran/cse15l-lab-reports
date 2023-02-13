@@ -5,7 +5,7 @@ Author: Sean Tran
 PID: A16045509
 
 ## Researching Commands
-* I chose to explore find for additional command line options. 
+* I chose to explore _find_ for additional command line options. 
 * 1: **find ./written_2/ -[PERMISSION]**
 * This searches the entire written_2 directory and all files you have permission to do stuff to.
 * The first example shows us searching for all files we can read.

@@ -7,7 +7,7 @@ PID: A16045509
 ## Researching Commands
 * I chose to explore _find_ for additional command line options. 
 * 1: **find ./written_2/ -[PERMISSION]**
-* This searches the entire written_2 directory and all files you have permission to do stuff to.
+* This searches the entire written_2 directory and all files you have permission to do a specific action.
 * The first example shows us searching for all files we can read.
 * ![Image](2.13.1.PNG)
 * The second example shows us searching for all files we can write. 

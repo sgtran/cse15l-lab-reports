@@ -9,6 +9,11 @@ PID: A16045509
  
  
 ***Log into ieng6***
+* ssh with username and enter your password.
+![Image](bash.PNG)	
+* Once you log in, it should look like this.
+![Image](logIn.PNG)	
+
 ***Clone your fork of the repository from your Github account***
 ***Run the tests, demonstrating that they fail***
 ***Edit the code file to fix the failing test***

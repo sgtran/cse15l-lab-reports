@@ -63,13 +63,13 @@ Enter the file to edit code by running following command:
  
 * The bug to fix is to fix the index incremention in the third while loop from index1 to index2
 * Complete the following sequence in order
-1. press &lt;down&gt 42 times
-2. press &lt;right&gt 12 times
-3. press &lt;backspace&gt 1 time
+1. press &lt;down&gt; 42 times
+2. press &lt;right&gt; 12 times
+3. press &lt;backspace&gt; 1 time
 4. type 2
 5. press ctrl x
 6. type y
-press &lt;enter&gt
+press &lt;enter&gt;
 
 * This allowed you to fix the bug and save the file.
  

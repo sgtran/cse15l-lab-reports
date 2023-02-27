@@ -8,7 +8,9 @@ PID: A16045509
 * This lab will go over in depth how to perform the competition steps.
  
 ***Log into ieng6***
-* Open VSCode and ssh with username and enter your password.
+* Open VSCode and ssh with username.
+* <code>ssh cs15lwi23[ID]@ieng6.ucsd.edu &lt;enter&gt;</code>
+* Enter your password.
 ![Image](bash.PNG)	
 * Once you log in, it should look like this.
 ![Image](logIn.PNG)
@@ -69,7 +71,7 @@ Enter the file to edit code by running following command:
 4. type 2
 5. press ctrl x
 6. type y
-press &lt;enter&gt;
+7. press &lt;enter&gt;
 
 * This allowed you to fix the bug and save the file.
  

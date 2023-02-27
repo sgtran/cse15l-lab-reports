@@ -18,7 +18,7 @@ PID: A16045509
 ***Clone your fork of the repository from your Github account***
 * Type in the following line of code into terminal and press enter the following command:
 
-<code>git clone [ssh link from forked repo] <enter>&lt;enter&gt;</code>
+<code>git clone [ssh link from forked repo] &lt;enter&gt;</code>
 
 * This command cloned the forked repository from github.
 * It should look like this:
@@ -28,7 +28,7 @@ PID: A16045509
 
  The _first_ step you need to do is cd in the lab7 directory by running the following command:
  
-cd lab7/ <enter>
+<code>cd lab7/  &lt;enter&gt;</code>
  
 * This command put you into the lab7 directory.
 * It should look like this:
@@ -37,7 +37,7 @@ cd lab7/ <enter>
 
 The _second_ step is to compile junit tests by running following command:
  
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
+<code> javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java  &lt;enter&gt;</code>
 
 * This command compiled the java and junit files.
 * It should look like this:
@@ -45,7 +45,7 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
 
 The _third_ step is to run tests by running the following command:
  
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples <enter>
+<code> java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples  &lt;enter&gt;</code>
 
 * This command ran the junit tests.
 * It should look like this:
@@ -55,7 +55,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 
 Enter the file to edit code by running following command:
  
-nano ListExamples.java <enter>
+<code> nano ListExamples.java  &lt;enter&gt;</code>
  
 * This command opened a the file for you to edit in terminal.
 * It should look like this:
@@ -63,13 +63,13 @@ nano ListExamples.java <enter>
  
 * The bug to fix is to fix the index incremention in the third while loop from index1 to index2
 * Complete the following sequence in order
-press <down> 42 times
-press <right> 12 times
-press <backspace> 1 time
+press &lt;down&gt 42 times
+press &lt;right&gt 12 times
+press &lt;backspace&gt 1 time
 type 2
 ctr x
 type y
-press <enter>
+press &lt;enter&gt
 
 * This allowed you to fix the bug and save the file.
  
@@ -77,7 +77,7 @@ press <enter>
 
 The _first_ step is to compile junit tests by running following command:
  
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
+<code> javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java  &lt;enter&gt;</code>
 
 * This command compiled the java and junit files.
 * It should look like this:
@@ -85,7 +85,7 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
  
 The _second_ step is to run junit tests by running following command:
  
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples <enter>
+<code> java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples  &lt;enter&gt;</code>
 
 * This command ran the junit testing file.
 * It should look like this with 2 passing tests:
@@ -95,7 +95,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 
 The _first_ step is to add edited file by running following command:
  
-git add ListExamples.java
+<code> git add ListExamples.java  &lt;enter&gt;</code>
  
 * This command added the edited file. 
 * It should look like this:
@@ -103,7 +103,7 @@ git add ListExamples.java
  
 The _second_ step is to commit added edited file by running following command:
  
-git commit -m "[COMMIT MESSAGE]" <enter>
+<code> git commit -m "[COMMIT MESSAGE]"  &lt;enter&gt;</code>
  
 * This command commited the file with a message in a commit 
 * It should look like this:
@@ -111,7 +111,7 @@ git commit -m "[COMMIT MESSAGE]" <enter>
  
 The _third_ step is to push added edited file by running following command:
  
-git push origin main <enter>
+<code> git push origin main  &lt;enter&gt;</code>
  
 * This command pushed the commit to GitHub
 * It should look like this:

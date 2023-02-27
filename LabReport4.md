@@ -17,7 +17,7 @@ PID: A16045509
 
 ***Clone your fork of the repository from your Github account***
 * Type in the following line of code into terminal and press enter the following command
-git clone [ssh link] <enter>
+git clone [ssh link from forked repo] <enter>
 * It should look like this:
 ![Image](2.26.1.PNG)
 
@@ -25,10 +25,12 @@ git clone [ssh link] <enter>
 * The first step you need to do is cd in the lab7 directory by running the following command:
 cd lab7/ <enter>
 * It should look like this:
+ 
 ![Image](2.26.2.PNG)
 
 * The second step is to compile junit tests by running following command:
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
+ 
 * It should look like this:
 ![Image](2.26.3.PNG)
 

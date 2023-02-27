@@ -5,7 +5,7 @@ Author: Sean Tran
 PID: A16045509
 
 ## Competition Steps
-* This lab will go over in depth how to perform the competition steps.
+* This lab will go over in depth how to perform the competition 'steps'.
  
 ***Log into ieng6***
 * Open VSCode and ssh with username and enter your password.
@@ -16,9 +16,9 @@ PID: A16045509
 ![Image](2.26.0.PNG)
 
 ***Clone your fork of the repository from your Github account***
-* Type in the following line of code into terminal and press enter the following command
-'git clone [ssh link from forked repo] <enter>'
-* It should look like this:
+* Type in the following line of code into terminal and press enter the following command:
+**git clone [ssh link from forked repo] <enter>
+*** It should look like this:
 ![Image](2.26.1.PNG)
 
 ***Run the tests, demonstrating that they fail***

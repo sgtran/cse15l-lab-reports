@@ -10,10 +10,10 @@ PID: A16045509
 ***Log into ieng6***
 * Open VSCode and ssh with username by running command:
 
-* <code>ssh cs15lwi23[ID]@ieng6.ucsd.edu &lt;enter&gt;</code>
+<code>ssh cs15lwi23[ID]@ieng6.ucsd.edu &lt;enter&gt;</code>
 * This is the password prompt.
 ![Image](bash.PNG)	
-* If given the prompt enter your password.
+* If given the prompt, enter your password.
 * Once you log in, it should look like this.
 ![Image](logIn.PNG)
 * If you have ssh key in ieng then you should not have gotten a password prompt and got loggged in like this.

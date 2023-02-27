@@ -25,7 +25,7 @@ git clone [ssh link from forked repo] <enter>
 ![Image](2.26.1.PNG)
 
 ***Run the tests, demonstrating that they fail***
-* The first step you need to do is cd in the lab7 directory by running the following command:
+* The _first_ step you need to do is cd in the lab7 directory by running the following command:
  
 cd lab7/ <enter>
  
@@ -34,7 +34,7 @@ cd lab7/ <enter>
  
 ![Image](2.26.2.PNG)
 
-* The second step is to compile junit tests by running following command:
+* The _second_ step is to compile junit tests by running following command:
  
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
 
@@ -42,7 +42,7 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
 * It should look like this:
 ![Image](2.26.3.PNG)
 
-* The third step is to run tests by running the following command:
+* The _third_ step is to run tests by running the following command:
  
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples <enter>
 
@@ -51,13 +51,14 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ![Image](2.26.4.PNG)
 
 ***Edit the code file to fix the failing test***
-* The first step is to enter the file to edit code by running following command:
+* The _first_ step is to enter the file to edit code by running following command:
  
 nano ListExamples.java <enter>
  
 * This command opened a the file for you to edit in terminal.
 * It should look like this:
 ![Image](2.26.5.PNG)
+ 
 * The bug to fix is to fix the index incremention in the third while loop from index1 to index2
 * Complete the following sequence in order
 press <down> 42 times
@@ -71,7 +72,7 @@ press <enter>
 * This allowed you to fix the bug and save the file.
  
 ***Run the tests, demonstrating that they now succeed***
-* The first step is to compile junit tests by running following command:
+* The _first_ step is to compile junit tests by running following command:
  
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
 
@@ -79,7 +80,7 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
 * It should look like this:
 ![Image](2.26.3.PNG)
  
-* The second step is to run junit tests by running following command:
+* The _second_ step is to run junit tests by running following command:
  
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples <enter>
 
@@ -88,7 +89,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ![Image](2.26.6.PNG)
 
 ***Commit and push the resulting change to your Github account (you can pick any commit message!)***
-* The first step is to add edited file by running following command:
+* The _first_ step is to add edited file by running following command:
  
 git add ListExamples.java
  
@@ -96,7 +97,7 @@ git add ListExamples.java
 * It should look like this:
  ![Image](2.26.7.PNG)
  
-* The second step is to commit added edited file by running following command:
+* The _second_ step is to commit added edited file by running following command:
  
 git commit -m "[COMMIT MESSAGE]" <enter>
  
@@ -104,7 +105,7 @@ git commit -m "[COMMIT MESSAGE]" <enter>
 * It should look like this:
  ![Image](2.26.8.PNG)
  
-* The third step is to push added edited file by running following command:
+* The _third_ step is to push added edited file by running following command:
  
 git push origin main <enter>
  

@@ -18,7 +18,7 @@ PID: A16045509
 
 ***Clone your fork of the repository from your Github account***
 * Type in the following line of code into terminal and press enter
-* 
+* git clone 
 
 ***Run the tests, demonstrating that they fail***
 ***Edit the code file to fix the failing test***

@@ -29,7 +29,7 @@ cd lab7/ <enter>
 
 * The second step is to compile junit tests by running following command:
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
-* It should ook like this:
+* It should look like this:
 ![Image](2.26.3.PNG)
 
 * The third step is to run tests by running the following command:

@@ -12,7 +12,7 @@ PID: A16045509
 ![Image](bash.PNG)	
 * Once you log in, it should look like this.
 ![Image](logIn.PNG)
-* If you have ssh key in ieng then you should not have gotten a password and got loggged in like this.
+* If you have ssh key in ieng then you should not have gotten a password prompt and got loggged in like this.
 ![Image](2.26.0.PNG)
 
 ***Clone your fork of the repository from your Github account***

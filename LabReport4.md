@@ -18,7 +18,7 @@ PID: A16045509
 ***Clone your fork of the repository from your Github account***
 * Type in the following line of code into terminal and press enter the following command:
 
-git clone [ssh link from forked repo] <enter>
+<code>git clone [ssh link from forked repo] <enter></code>
 
 * This command cloned the forked repository from github.
 * It should look like this:

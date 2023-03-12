@@ -23,5 +23,5 @@ PID: A16045509
 * This first example shows us how many occurrances of "morse" being used in a line in each file in written_2 directory. 
 ![Image](3.12.3.PNG)
  
- Sources: https://qpeng.org/computer/grep.htm#:~:text=The%20%2Dc%20option%20tells%20grep,of%20%22boo%22%20in%20a_file.&text=An%20option%20more%20useful%20for,is%20%2Di%2C%20ignore%20case. && man command
+ Sources: https://qpeng.org/computer/grep.htm#:~:text=The%20%2Dc%20option%20tells%20grep,of%20%22boo%22%20in%20a_file.&text=An%20option%20more%20useful%20for,is%20%2Di%2C%20ignore%20case. && **man grep** command
  

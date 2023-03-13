@@ -24,7 +24,7 @@ PID: A16045509
 ![Image](3.12.3.PNG)
  
  ***grep -r -E "([word]|[word]...)" ./written_2***
-* This command recursively searches all of written_2 for different patterns and outputs the line in each file that contain any of the given patterns. The '-E' allows for extended regular expressions which allows you to use the '|' (or) operator to look for multiple patterns in the same search.
+* This command recursively searches all of written_2 for different patterns and outputs the line in each file that contain any of the given patterns. The '-E' allows for extended regular expressions which allows you to use the ***|*** (or) operator to look for multiple patterns in the same search.
 * This option may be useful for when you want to search for the usages of different words in a directory of files. This option may also be useful for when you want to remove all files that contain certain key words. 
 * This first example shows us how many occurrances of "tuna", "spokes", and "tremor" being used in a line in each file in written_2 directory. 
 ![Image](3.12.4.PNG)
